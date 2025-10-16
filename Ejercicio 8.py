@@ -1,6 +1,7 @@
-numero1 = input("Introduce un número")
-numero2 = input("Introduce otro número")
+numero1 = int(input("Introduce un número:"))
+numero2 = int(input("Introduce otro número:"))
 
- division = numero1 / numero2 
-resto = numero1%numero2
-  
+resultado= int(numero1/numero2)
+print ("El resultado es:",resultado)
+Resto= numero1%numero2
+print ("El Resto es:",Resto)
